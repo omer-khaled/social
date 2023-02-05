@@ -91,7 +91,7 @@ function ProfilePostheader({index,post,userac}) {
                                         <img src={userac.img} alt='avatar'/>
                                 </div>
                                 <div className='info'>
-                                    <Link className='linkpro' to={`/${userac.id}`}><p>{`${userac.firstName} ${userac.lastName}`}</p></Link>
+                                    <Link className='linkpro' to={`/social/${userac.id}`}><p>{`${userac.firstName} ${userac.lastName}`}</p></Link>
                                     <div >
                                         <span className='me-2'><i className="bi bi-clock-history pe-1 icons"></i>{(post.time!==undefined)?post.time:"any time"}</span>
                                         <span className=''><i className="bi bi-calendar3 pe-1 icons"></i>{(post.date!==undefined)?post.date:"any date"}</span>

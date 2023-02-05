@@ -36,7 +36,7 @@ function Postheader({userId}) {
                         <img src={userofPost.img} alt='avatar'/>
                 </div>
                 <div className='info'>
-                    <Link className='linkpro' to={`/${userofPost.id}`}><p>{`${userofPost.firstName} ${userofPost.lastName}`}</p></Link>
+                    <Link className='linkpro' to={`/social/${userofPost.id}`}><p>{`${userofPost.firstName} ${userofPost.lastName}`}</p></Link>
                     <span>{userofPost.Locatin}</span>
                 </div>
             </div>

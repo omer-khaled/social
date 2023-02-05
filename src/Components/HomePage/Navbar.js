@@ -21,7 +21,7 @@ function Navbar() {
         <header>
             <nav className='navbar navbar-expand-lg navbar-light ' style={nstyle}>
                 <div className='container d-flex justify-content-between align-item-center w-100'>
-                    <Link to='/Home' className='navbar-brand' >
+                    <Link to='/social/Home' className='navbar-brand' >
                         <span style={{color:"var(--brand-color)",fontSize:"30px",fontWeight:"bold"}}>OMSocial</span>
                     </Link>
                     <div className='links  d-flex justify-content-center align-item-center'>
@@ -43,7 +43,7 @@ function Navbar() {
                             setDark(false);
                         }}/>}
                         <div className='po-relative cus'>
-                            <Link to={`/${user.id}`} className='navbar-brand' ><i className="bi bi-people-fill"> </i>
+                            <Link to={`/social/${user.id}`} className='navbar-brand' ><i className="bi bi-people-fill"> </i>
                                 {
                                     ((user.watingList)!==undefined)?
                                         <div className='nofit'>

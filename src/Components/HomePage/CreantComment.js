@@ -21,7 +21,7 @@ function CreantComment({index,idofcom}) {
                         <img className='imagcommet' src={userofcoment.img} alt='avatar'/>
                         <div className='info-comment w-100'>
                             <div className='header d-flex justify-content-start align-items-center'> 
-                                <Link className='linkpro kt me-2' to={`/${userofcoment.id}`}><span>{`${userofcoment.firstName} ${userofcoment.lastName}`}</span></Link>
+                                <Link className='linkpro kt me-2' to={`/social/${userofcoment.id}`}><span>{`${userofcoment.firstName} ${userofcoment.lastName}`}</span></Link>
                                 <span className='kt'>{userofcoment.Position}</span>
                             </div>
                             <div className='text-left'>{((allposts[index])["comments"][idofcom]).body}</div>

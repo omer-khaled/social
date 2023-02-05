@@ -80,7 +80,7 @@ function LSidebar() {
                         <img src={user.img} alt='avatar'/>
                     </div>
                     <div className='info'>
-                       <Link className='linkpro' to={`/${user.id}`}><p>{`${user.firstName} ${user.lastName}`}</p></Link>
+                       <Link className='linkpro' to={`/social/${user.id}`}><p>{`${user.firstName} ${user.lastName}`}</p></Link>
                         <span>{user.Position}</span>
                     </div>
                 </div>

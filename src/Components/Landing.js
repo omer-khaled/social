@@ -15,12 +15,12 @@ function Landing() {
         <>
             <nav className='navbar navbar-expand-lg navbar-light bg-light' style={nstyle}>
                 <div className='container d-flex justify-content-between align-item-center w-100'>
-                    <Link to='/' className='navbar-brand' >
+                    <Link to='/social/' className='navbar-brand' >
                         <span style={{color:"var(--brand-color)",fontSize:"30px",fontWeight:"bold"}}>Linkedin</span>
                         <i className="bi bi-linkedin" style={lstyle}></i>
                     </Link>
                     <div>
-                        <Link className='btn btn-primary' style={{width:"fit-content"}} to='login'>Login</Link>
+                        <Link className='btn btn-primary' style={{width:"fit-content"}} to='/social/login'>Login</Link>
                     </div>
                 </div>
             </nav>

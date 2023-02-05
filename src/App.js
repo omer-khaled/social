@@ -12,12 +12,12 @@ function App() {
   return (
     <div className="App">
         <Routes>
-          <Route path='/' element={<Landing />}>
+          <Route path='/social/' element={<Landing />}>
             <Route path='' element={<Signup />} />
-            <Route path='login' element={<Login />} />
+            <Route path='/social/login' element={<Login />} />
           </Route>
-          <Route path='/Home' element={<Home />} />
-          <Route path='/:id' element={
+          <Route path='/social/Home' element={<Home />} />
+          <Route path='/social/:id' element={
             <React.Fragment>
               <Navbar />
               <Profile />
